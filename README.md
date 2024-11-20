@@ -9,10 +9,6 @@ mkdir calorieapp
 cd calorieapp
 
 pipenv install django
-models.py: Accessing table in the database.
-urls.py: Location for each files in browser.
-views.py: request response at https server.
-migrations: Managing database.
 
 pipenv shell
 (calorieapp-kub3HwmJ) django-admin startproject calorie_app .
