@@ -12,7 +12,18 @@ Django-filter
 mkdir calorieapp
 cd calorieapp
 
-pipenv install django
+pipenv install Django
+breakdown structure of Django...
+
+settings.py: Contains project-wide settings, such as database configurations, secret keys, and installed apps.   
+urls.py: Defines URL patterns and maps them to specific views.   
+wsgi.py: Entry point for WSGI-compatible web servers.
+models.py: Defines database models.   
+views.py: Contains view functions to handle requests and render templates.   
+templates directory: Stores HTML templates.   
+static directory: Stores static files like CSS, JavaScript, and images.   
+media directory: Stores user-uploaded files.   
+
 
 pipenv shell
 (calorieapp-kub3HwmJ) django-admin startproject calorie_app .
